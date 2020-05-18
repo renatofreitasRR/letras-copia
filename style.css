@@ -1,0 +1,280 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* HEADER */
+header{
+    height: 52px;
+    background-color: #c2c800;
+    width: 100%;
+    top: 0;
+    position: fixed;
+    z-index: 10;
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+
+}
+.search{
+    max-width: 524.5px;
+    width: 90%;
+    height: 1.5rem;
+    position: relative;
+}
+.search .i-search{
+    position: absolute;
+    color: #ccc;
+    top: 0.25rem;
+    right: 4rem;
+}
+.search-input{
+    width: 90%;
+    border-radius: 5px;
+    border: none;
+}
+.navbar .navbar-a{
+        color: white;
+        text-decoration: none;
+        font-weight: bold;
+        padding-right: 20px;
+        padding-left: 20px;
+}
+
+.navbar a:hover{
+    text-decoration: none;
+    color: white;
+}
+.navbar .hamburguer{
+    color: white;
+}
+/* HEADER FIM */
+
+
+/* MAIN */
+h2 a{
+    color: #b7b700 !important;
+}
+.em-alta{
+    justify-content: space-between;
+    font-size: 1rem;
+}
+.em-alta li{
+    list-style-type: none;
+}
+.em-alta li:first-child{
+    justify-content: flex-start;
+    list-style-type: circle;
+}
+main{
+    margin-top: 70px;
+}
+.btn.btn-dark{
+    color: white;
+    border-radius: 70px 70px 70px 70px;
+    width: 5rem;
+}
+.btn.btn-outline-dark{
+    border-radius: 70px 70px 70px 70px;
+    border: 1px solid #ccc;
+    color: black;
+}
+.btn.btn-outline-dark:hover{
+    background-color: #ccc;
+    border: none;
+    color: black;
+}
+.btns.d-flex a{
+    margin-right: 1%;
+}
+.btns.d-flex{
+    margin-bottom: 3%;
+}
+.banner{
+    border-radius: 10px 10px 10px 10px;
+    width: 100%;
+}
+.d-flex.title{
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 1rem;
+}
+.d-flex h1 a{
+    font-size: 1.5rem;
+    color: #b7b700; 
+}
+.d-flex a{
+   color: #f60;
+   font-weight: 600;
+}
+.d-flex h2{
+    color: #b7b700;
+    margin-top: 2%;
+    font-size: 1.5rem;
+    margin-bottom: 1%;
+}
+.d-flex h3{
+    margin-top: 2%;
+    font-size: 1rem;
+}
+.card .d-flex{
+    height: 64px;
+    vertical-align: middle;
+}
+.card .d-flex span{
+    font-size: 3rem;
+    padding-left: 1rem;
+    color: rgb(165, 165, 165);
+}
+.card .d-flex .autor{
+    font-size: 0.9rem;
+    padding-left: 0;
+}
+.card .d-flex .number:hover{
+    color: #f60;
+}
+.col-lg-4 .card{
+    border: none;
+}
+.col-lg-4 .card:hover{
+    background-color: rgba(230, 230, 230, 0.952);
+}
+.col-lg-4 .card a:hover{
+    color: #b7b700; 
+}
+.card .d-flex a{
+    padding-left: 1rem;
+    text-decoration: none;
+}
+.col-lg-4 .musicos{
+    height: 33.3%;
+    
+}
+.col-lg-4 .artistas{
+    height: 50%;
+    padding-bottom: 3rem;
+}
+.propaganda img{
+    margin-top: 20px;
+    width: 100%;
+}
+.rounded-circle{
+    margin-left: 10%;
+    margin-right: 3%;
+    width: 5rem;
+    height: 5rem;
+    background-color: black;
+    background-image: url(./imgs/64e02ba675aa7ec22bac569f87f23190-tb4.jpg);
+    background-size: cover;
+}
+.rounded-circle.two{
+    margin-top: 15px;
+    width: 3rem;
+    height: 3rem;
+    background-image: url(./imgs/64e02ba675aa7ec22bac569f87f23190-tb4.jpg);
+    background-size: cover;
+    margin-left: 0;
+}
+.col-lg-2 .card{
+    border-radius: 10px;
+    padding-left: 1rem;
+    margin-bottom: 1rem;
+    height: 15vh;
+}
+.col-lg-2 .card:hover{
+    cursor: pointer;
+    border-color: black;
+}
+.blog-um img{
+    width: 100%;
+    border-radius: 10px;
+    
+}
+.blog-um img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+
+.blog-um:hover{
+    cursor: pointer;
+}
+.blog img{
+    width: 100%;
+    border-radius: 10px;
+}
+.blog img:hover{
+    box-shadow: 0 0 10px rgba(0,0,0,.3);
+}
+.blog:hover{
+    cursor: pointer;
+}
+.col-lg-2{
+    width: 20%;
+}
+.title .ver-mais{
+    color: black;
+    border-radius: 3px;
+}
+.title .ver-mais:hover{
+    background-color: #ccc;
+    text-decoration: none;
+    padding: 5px;
+    border-radius: 3px;
+}
+.d-flex .btn-success{
+    color: white;
+   
+}
+.btn-success{
+    font-size: 1rem;
+    height: 100%;
+    width: 30%;
+}
+
+h2 a:hover{
+    color: #b7b700;
+}
+section{
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #ccc;
+}
+.acessados .description{
+    font-weight: 700;
+}
+.album{
+    width: 100%;
+    height: 10rem;
+    background-image: url(./imgs/album.jpg);
+    background-size: cover;
+    border-radius: 5px;
+}
+.card.card-album{
+    padding-left: 0;
+    background-size: cover;
+}
+
+/* MAIN FIM */
+@media (max-width: 990px){
+    .musicos .musicos-content{
+        height: 100%;
+        padding-top: 20px;
+    }
+    .none{
+        display: none;
+    }
+    .d-flex h2{
+        font-size: 1.2rem;
+
+    }
+    .d-flex h1 a{
+        font-size: 1.2rem;  
+    }
+}
+
+@media (max-width: 550px){
+    .sm-none{
+        display: none;
+    }
+    .sm-none a{
+        display: none;
+    }
+}
